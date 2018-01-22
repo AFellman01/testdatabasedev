@@ -20,7 +20,7 @@ export default class Submit extends React.Component {
     event.preventDefault();
     const { organization, name, amount, due_date, url } = this.state;
     console.log(this.state);
-    axios.post("/jobSubmit", {
+    axios.post("/scholarshipSubmit", {
       organization,
       name,
       amount,

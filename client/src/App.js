@@ -4,8 +4,6 @@ import axios from 'axios';
 import './App.css';
 import Submit from './scholarshipsubmit.js';
 import ScholarshipData from "./ScholarshipData"
-import jobSubmit from "./JobSubmit"
-import JobData from "./JobData"
 export default class App extends Component {
   constructor(){
     super();
@@ -37,8 +35,6 @@ export default class App extends Component {
         <br/>
         <ScholarshipData data={this.state.data}/>
         </div>
-<br/>
-// <jobSubmit/>
       </div>
     );
   }
